@@ -1,0 +1,9 @@
+*~
+
+media/*
+!media/.gitkeep
+
+*.pyc
+db.sqlite3
+
+.env

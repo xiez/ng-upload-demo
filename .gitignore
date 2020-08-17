@@ -7,3 +7,5 @@ media/*
 db.sqlite3
 
 .env
+
+frontend/node_modules

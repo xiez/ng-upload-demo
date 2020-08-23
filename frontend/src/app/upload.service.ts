@@ -9,6 +9,6 @@ export class UploadService {
     constructor(private http: HttpClient) { }
 
     public upload(formData) {
-        return this.http.post<any>('/api/upload/', formData)
+        return this.http.post<any>('/upload/', formData)
     }
 }
